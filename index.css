@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.box h3 {
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+.box {
+  height: 70%;
+  width: 27%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  border: 2px solid rgb(146, 142, 142);
+}
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+input {
+  padding: 10px;
+  width: 70%;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e1e1e1;
+  border: none;
+  color: #737373;
+}
+.btn {
+  padding: 5px;
+  width: 70%;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #0095f6;
+  color: white;
+}
+
+.hr-or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hr-or hr {
+  width: 130px;
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #00376b;
+}
+a {
+  text-decoration: none;
+  color: #737373;
+}
+.small-box {
+  width: 27%;
+  margin-top: 20px;
+  padding: 20px 80px;
+  border: 2px solid #8f8d8d;
+}
+.blue {
+  color: #0095f6;
+}
+
+.img1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
